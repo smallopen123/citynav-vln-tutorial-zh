@@ -1,0 +1,14 @@
+{
+  "episode_id": "toy-birmingham-001",
+  "instruction": "从市政厅附近出发，找到图书馆南侧 20 米的目标建筑并在那里停止。",
+  "start": {"x": 0.0, "y": 0.0, "z": 50.0, "heading_deg": 0.0},
+  "goal": {"x": 80.0, "y": 20.0, "z": 50.0, "heading_deg": 0.0},
+  "landmarks": [
+    {"name": "市政厅", "x": 0.0, "y": 0.0, "category": "civic"},
+    {"name": "钟楼", "x": 40.0, "y": 45.0, "category": "tower"},
+    {"name": "图书馆", "x": 80.0, "y": 40.0, "category": "public_building"}
+  ],
+  "reference_path_length": 82.46,
+  "max_steps": 30
+}
+

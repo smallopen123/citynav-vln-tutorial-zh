@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "citynav-vln-tutorial-zh"
+version = "0.1.0"
+description = "面向初学者的中文 VLN 与 CityNav 可运行教程"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Smallopen"}]
+dependencies = []
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["citynav_tutorial*"]
+
