@@ -59,7 +59,7 @@
 要求：Python 3.10 或更高版本。教学示例只使用 Python 标准库。
 
 ```bash
-git clone <你的仓库地址>
+git clone https://github.com/smallopen123/citynav-vln-tutorial-zh.git
 cd citynav-vln-tutorial-zh
 python examples/run_toy_episode.py
 ```
@@ -135,3 +135,4 @@ python -m unittest discover -s tests -v
 ## License
 
 教程代码采用 [MIT License](LICENSE)。CityNav 数据、官方代码、论文图表和模型权重遵循各自项目的许可协议，本仓库不重新分发它们。
+
